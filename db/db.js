@@ -65,7 +65,7 @@ const connection = mySql.createConnection(
 
 
             const createTableQuery = `
-                CREATE TABLE IF NOT EXISTS tabla_usuarios (
+                CREATE TABLE IF NOT EXISTS tabla_usuarios_2 (
                     id INT AUTO_INCREMENT PRIMARY KEY,
                     nombre VARCHAR(100) NOT NULL,
                     apellido VARCHAR(100) NOT NULL,
